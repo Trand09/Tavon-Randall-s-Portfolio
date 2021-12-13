@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-image: url("../images/hero-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0 0 0 100px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+}
+
+a:hover {
+    color: green;
+}
+
+/* Header styles end */
+
+.hero {
+    display: flex;
+    background-image: url("../images/hero-img.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-position: 80%;
+    height: 385px;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.hero .hero-cta h3 {
+    color: white;
+    padding: 0 25px 10px 0;
+}
+
+.section-title h2 {
+    border-bottom: 3px solid;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    padding: 5px 0 5px 0;
+} 
+
+/* About Me styles start */
+.about-me {
+    background-color: lightblue;
+}
+
+.about-me p {
+    text-align: center;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+
+/* Project styles */
+.projects {
+    background-color: lightgrey;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.run-buddy {
+    background-image: url(../images/run-buddy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    width: 80%;
+    margin: 15px;
+    height: 400px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.led-wall,
+.calculator {
+    width: 50%;
+    height: 100px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+}
+
+.pastel-puzzels,
+.surf-report {
+    width: 50%;
+    height: 100px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+}
+
+/* Contact me styles */
+.contact-me {
+    background-color: lightblue;
+}
+
+/* resume styles */
+.resume {
+    background-color: lightgrey;
+}
